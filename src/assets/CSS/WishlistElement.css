@@ -1,0 +1,41 @@
+.WishlistElement {
+    /* background-color: rgba(0, 0, 0, 0); */
+    backdrop-filter: blur(10px);
+    margin: 25px;
+    display: flex;
+    /* width: 100%; */
+    /* justify-content: top; */
+    height: min-content;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    max-height: 250px;
+    width: 100%;
+}
+
+/* .card-body {
+    height: 75%;
+} */
+
+.WishlistElement__Image {
+    max-height: 250px;
+    margin: 10px;
+}
+
+.WishElement__RemoveCard {
+    /* background-color: rgba(0, 0, 0, 0); */
+    display: flex;
+    justify-content: end;
+}
+
+.WishElement__RemoveCard > button {
+    width: 50%;
+    background-color: rgba(165, 42, 42, 0.25);
+    border: 2px solid;
+    border-color: brown;
+    color: whitesmoke;
+    backdrop-filter: blur(50px);
+    border-radius: 25px;
+}

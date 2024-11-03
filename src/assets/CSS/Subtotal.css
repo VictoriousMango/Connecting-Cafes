@@ -1,0 +1,9 @@
+.Subtotal {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Subtotal > h2 {
+    text-align: center;
+}

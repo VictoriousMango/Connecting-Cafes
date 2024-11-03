@@ -1,0 +1,51 @@
+.navigationBar {
+    height: 75px;
+    background: #02c473;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navigationBar__logo {
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navigationBar__searchBar {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navigationBar__searchInput {
+    height: 45px;
+    width: 100%;
+}
+
+.navigationBar__searchlogo {
+    height: 45px;
+    background:#b7b7b7;
+}
+
+.navigationBar__navElements img{
+    height: 50px;
+    margin-left: 20px;
+    /* background-color: antiquewhite; */
+}
+
+.navigationBar__navElementWishlist {
+    margin-right: 0px;
+}
+
+.navigationBar_wishlistCount {
+    margin-left: 0px;
+    margin-right: 20px;
+    font-weight: 750;
+}

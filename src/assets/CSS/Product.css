@@ -1,0 +1,38 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(243, 243, 243);
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 20px;
+    max-height: 400px;
+    min-width: 100px;
+    z-index: 1;
+    border: solid 1px;
+    border-color:bisque;
+    width: 100%;
+}
+
+.product__image {
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.product__info {
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.product__price {
+    margin-top: 5px;
+}
+
+.product__addToCartButton {
+    background:bisque;
+    border-color:brown;
+    border: 1px solid;
+    margin-top: 10px;
+}
